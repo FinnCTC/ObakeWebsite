@@ -1,17 +1,37 @@
- .webHead {
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.about {
+    border: 5px solid black;
+    background-color: azure;
+}
+
+.about > header{
     text-align: center;
     font-size: 150%;
+    margin-bottom: 15px;
 }
 
 .titleScreenImg {
     display: block;
-    margin: auto;
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border: 5px solid black;
+}
+
+#aboutFloat {
+    float: none;
+    font-size: 150%;
+    margin-bottom: 50px;
 }
 
 .characters{
     display: flex;
     gap: 20px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .char_keishi{
@@ -19,8 +39,38 @@
     border: 2px solid green;
 }
 
+.char_keishi > img{
+    background-color: rgba(250, 0, 0, .5);
+    border: 5px dashed black;
+}
+
+.char_neko{
+    flex: 1;
+    border: 2px solid darkgoldenrod;
+}
+
+.char_neko > img{
+    background-color: rgba(250, 250, 0, .5);
+    border: 5px dashed black;
+}
+
+.char_gachi{
+    flex: 1;
+    border: 2px solid plum;
+}
+
+.char_gachi > img {
+    background-color: rgba(250, 100, 250, .5);
+    border: 5px dashed black;
+}
+
 #characterName{
     font-size: 150%;
     background-color: aliceblue;
     outline: 2px solid black;
+}
+
+#sectionName{
+    text-align: center;
+    font-size: 200%;
 }
