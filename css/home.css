@@ -1,0 +1,26 @@
+ .webHead {
+    text-align: center;
+    font-size: 150%;
+}
+
+.titleScreenImg {
+    display: block;
+    margin: auto;
+}
+
+.characters{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.char_keishi{
+    flex: 1;
+    border: 2px solid green;
+}
+
+#characterName{
+    font-size: 150%;
+    background-color: aliceblue;
+    outline: 2px solid black;
+}
