@@ -59,6 +59,7 @@
     float: right;
     border: 5px solid black;
     margin-right: auto;
+    margin-bottom: 15px;
 }
 
 .gameplay > header {
@@ -87,7 +88,7 @@
 }
 
 .characterHeader {
-    margin: 0 auto;
+    margin-top: 15px;
     text-align: center;
     font-size: 150%;
     border: 5px solid black;
