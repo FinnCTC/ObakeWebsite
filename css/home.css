@@ -3,9 +3,27 @@
     margin: auto;
 }
 
+.gddLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 125%;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+.gddLink:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
 .about {
     border: 5px solid black;
     background-color: azure;
+    clear: both;
 }
 
 .about > header{
@@ -27,11 +45,54 @@
     margin-bottom: 50px;
 }
 
+.gameplay {
+    clear: both;
+    text-align: center;
+    border: 5px solid black;
+    background-color: azure;
+    margin-bottom: 315px;
+}
+
+.gameplay > img {
+    display: block;
+    margin: 0 1rem 1rem 0;
+    float: right;
+    border: 5px solid black;
+    margin-right: auto;
+}
+
+.gameplay > header {
+    font-size: 150%;
+}
+
+.gameplay > p {
+    font-size: 150%;
+    top: 50%;
+    right: 100%;
+}
+
 .characters{
     display: flex;
     gap: 20px;
     text-align: center;
-    border: 2px solid black;
+    clear: both;
+    border: 5px solid black;
+    border-top: none;
+    background-color: azure;
+}
+
+.characters > section {
+    margin-top: 15px;
+    background-color: azure;
+}
+
+.characterHeader {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150%;
+    border: 5px solid black;
+    border-bottom: none;
+    background-color: azure;
 }
 
 .char_keishi{
@@ -70,7 +131,27 @@
     outline: 2px solid black;
 }
 
-#sectionName{
+.miscHead {
+    margin-top: 50px;
+    font-size: 150%;
     text-align: center;
-    font-size: 200%;
+    border: 3px solid black;
+    border-bottom: none;
+    background-color: azure;
+}
+
+.miscInfo {
+    display: flex;
+    text-align: center;
+}
+
+.miscInfo > div {
+    flex: 1;
+    border: 3px dashed black;
+    background-color: azure;
+}
+
+.infoAnswer {
+    font-size: 150%;
+    text-decoration: underline;
 }
